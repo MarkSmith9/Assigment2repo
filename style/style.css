@@ -36,11 +36,9 @@ html {
 
 /*this adds colour to the header*/
 header {
-	background: linear-gradient(
-		0deg,
-		rgba(85, 71, 122, 0.4),
-		rgba(85, 71, 122, 0.6)
-	);
+	background: linear-gradient(0deg,
+			rgba(85, 71, 122, 0.4),
+			rgba(85, 71, 122, 0.6));
 }
 
 /*this changes the text on the CV box*/
@@ -92,11 +90,9 @@ body {
 	height: 100%;
 	margin: 0%;
 	transform: translate(0);
-	background: linear-gradient(
-		90deg,
-		rgba(115, 119, 119, 0.3),
-		rgba(0, 151, 167, 0.3)
-	);
+	background: linear-gradient(90deg,
+			rgba(115, 119, 119, 0.3),
+			rgba(0, 151, 167, 0.3));
 }
 
 /*this changes the properties of about_title*/
@@ -214,15 +210,13 @@ hr {
 }
 
 /*ensures the footer works as intended*/
-.footer {
+footer {
 	font-size: 3em;
 	text-align: center;
 	font-family: "Ubuntu", sans-serif;
-	background: linear-gradient(
-		0deg,
-		rgba(85, 71, 122, 0.6),
-		rgba(85, 71, 122, 0.4)
-	);
+	background: linear-gradient(0deg,
+			rgba(85, 71, 122, 0.6),
+			rgba(85, 71, 122, 0.4));
 	bottom: 0;
 	margin-top: 0;
 	width: 100%;
