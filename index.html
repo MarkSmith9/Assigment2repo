@@ -28,7 +28,7 @@
 							<a class="links" href="index.html"> home</a>
 							<a class="links" href="portfolio.html">portfolio</a>
 							<a class="links" href="contact.html">contact</a>
-							<a class="links" href="cv.html">cv</a>
+							<a class="links" href="cv.html">cv </a>
 						</li>
 					</ul>
 				</nav>
@@ -38,11 +38,19 @@
 			</video>
 			<h1>Hi, I am Mark</h1>
 			<span class="container"
-				><img src="image/mark.png" alt="profile-picture"
+				><img src="image/mark.png" id="profilePicture" alt="profile-picture"
 			/></span>
 		</div>
 		<form method="get" action="contact.html">
-			<button class="button" type="submit">contact me</button>
+			<button
+				class="button"
+				onmouseover="BlackAndWhitePic()"
+				onmouseout="NormalPic()"
+				type="submit"
+			>
+				contact me
+			</button>
+			"
 		</form>
 		<div class="about_title">
 			About me:
@@ -76,5 +84,6 @@
 				</li>
 			</ul>
 		</footer>
+		<script src="main.js"></script>
 	</body>
 </html>
