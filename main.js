@@ -10,3 +10,5 @@ function BlackAndWhitePic() {
 function NormalPic() {
 	document.getElementById("profilePicture").src = "image/mark.png";
 }
+
+function HideLoader() {}
