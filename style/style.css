@@ -10,7 +10,9 @@ These were the colours used as a guidance:
 .secondary-text-color  { color: #757575; }
 .divider-color         { border-color: #BDBDBD; }
 */
-
+.logo {
+	opacity: 80%;
+}
 /*removes the border from the iframe and adds a bottom margin*/
 iframe {
 	border: 0;
@@ -53,7 +55,7 @@ h3 {
 }
 
 /*this adds a gray border around images*/
-img {
+.img {
 	border-style: solid;
 	border-radius: 30%;
 	border-color: #616161;
