@@ -1,35 +1,35 @@
 <!---starter code: https://github.com/lizcoultersmith/csy1018-2019-demo-->
 
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Mark Smith | Home</title>
-		<link
-			rel="stylesheet"
-			href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-			crossorigin="anonymous"
-		/>
-		<!--the bootstrap stylesheet-->
-		<link rel="stylesheet" href="style/style.css" />
-		<!--this links the CSS sheet which is responsible for making the website look correctly-->
-		<link
-			href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap"
-			rel="stylesheet"
-		/>
-		<!--this links to the Google fonts in order to add fonts to my website-->
-		<script
-			src="https://kit.fontawesome.com/cca13a356f.js"
-			crossorigin="anonymous"
-		></script>
-		<!--this links the FontAwesome icons which are used on the footer and contact page-->
-		<link rel="shortcut icon" type="image/png" href="image/favicon.png" />
-	</head>
+	<html lang="en">
+		<head>
+			<meta charset="UTF-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			<title>Mark Smith | Home</title>
+			<link
+				rel="stylesheet"
+				href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+				integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+				crossorigin="anonymous"
+			/>
+			<!--the bootstrap stylesheet-->
+			<link rel="stylesheet" href="style/style.css" />
+			<!--this links the CSS sheet which is responsible for making the website look correctly-->
+			<link
+				href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap"
+				rel="stylesheet"
+			/>
+			<!--this links to the Google fonts in order to add fonts to my website-->
+			<script
+				src="https://kit.fontawesome.com/cca13a356f.js"
+				crossorigin="anonymous"
+			></script>
+			<!--this links the FontAwesome icons which are used on the footer and contact page-->
+			<link rel="shortcut icon" type="image/png" href="image/favicon.png" />
+		</head>
 
-	<body onload="HideLoader()">
-		<!--hides the loader when the page loads-->
+	<body>
+
 		<div class="navigation">
 			<header>
 				<nav>
@@ -43,6 +43,7 @@
 							<a class="links" href="portfolio.html">portfolio</a>
 							<a class="links" href="contact.html">contact</a>
 							<a class="links" href="cv.html">cv </a>
+							<a class= "links"id="clock"><clock onclick="clock()"><m class = "links">clock</a> </m>
 						</li>
 					</ul>
 				</nav>
@@ -68,7 +69,6 @@
 			>
 				contact me
 			</button>
-			"
 		</form>
 		<div class="about_title">
 			About me:
