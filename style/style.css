@@ -13,6 +13,7 @@ These were the colours used as a guidance:
 .contact-form {
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 30px;
 	width: 400px;
 }
 .links:hover{
@@ -75,6 +76,7 @@ h3 {
 	border-radius: 30%;
 	border-color: #616161;
 	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+	margin-bottom: 50px;
 }
 
 /*this changes the properties of .item*/
