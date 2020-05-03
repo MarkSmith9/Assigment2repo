@@ -43,14 +43,6 @@ html {
 	padding: 5%;
 }
 
-/*
-.links2 {
-	text-decoration: none;
-	color: #212121;
-	padding: 0;
-}
-*/
-
 /*this adds colour to the header*/
 header {
 	background: linear-gradient(0deg,
@@ -77,16 +69,6 @@ h3 {
 	/*UPDATED*/
 	margin-bottom: 1rem;
 }
-
-
-/*this changes the properties of .item
-.item {
-	text-align: center;
-	border-radius: 100%;
-	height: 240px;
-	width: 240px;
-}
-*/
 
 /*this blurs the image when the image is hovered over*/
 .container:hover {
