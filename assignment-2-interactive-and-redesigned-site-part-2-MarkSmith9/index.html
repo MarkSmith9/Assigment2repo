@@ -1,0 +1,88 @@
+<!---starter code: https://github.com/lizcoultersmith/csy1018-2019-demo-->
+
+<!DOCTYPE html>
+<!--sets the language, was reccomended to do so by w3c-->
+<html lang="en-gb">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Mark Smith | Home</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+	<!--the bootstrap stylesheet-->
+	<link rel="stylesheet" href="style/style.css" />
+	<!--this links the CSS sheet which is responsible for making the website look correctly-->
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet" />
+	<!--this links to the Google fonts in order to add fonts to my website-->
+	<script src="https://kit.fontawesome.com/cca13a356f.js" crossorigin="anonymous"></script>
+	<!--this links the FontAwesome icons which are used on the footer and contact page-->
+	<link rel="shortcut icon" type="image/png" href="image/favicon.png" />
+</head>
+
+<body>
+
+	<div class="navigation">
+		<header>
+			<nav>
+				<ul>
+					<li>
+						<a href="index.html">
+							<img src="image/logo.png" class="logo" alt="profile logo" />
+						</a>
+						<!--used https://github.com/lizcoultersmith/nav-challenge/blob/master/index.html as refference-->
+						<a class="links" href="index.html"> home</a>
+						<a class="links" href="portfolio.html">portfolio</a>
+						<a class="links" href="contact.html">contact</a>
+						<a class="links" href="cv.html">cv </a>
+						<a class="links"></a>
+						<a class="links" id="clock" onclick="clock()">clock</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<video class="video-background" autoplay muted loop>
+			<source src="resource/background.mp4" type="video/mp4" />
+		</video>
+		<h1>Hi, I am Mark</h1>
+		<span class="container"><img src="image/mark.png" id="profilePicture" class="img"
+				alt="profile-picture" /></span>
+	</div>
+	<form method="get" action="contact.html">
+		<button class="button" onmouseover="BlackAndWhitePic()" onmouseout="NormalPic()" type="submit">
+			contact me
+		</button>
+	</form>
+	<div class="about_title">
+		About me:
+	</div>
+	<div class="about_text">
+		Hello, I am Mark and I am studying software engineering at the University
+		of Northampton. I am studying a variety of programming languages such as
+		HTML, CSS, Java and Javascript. I have been interested in computing since
+		I was young and have always enjoyed using them. I also have other skills
+		such as knowledge of Python, Bash and the Linux operating system.
+	</div>
+	<div class="footerspacing">.</div>
+	<footer>
+		<ul>
+			<li>
+				<!--icons got from https://fontawesome.com/, they are used in order to act as the footer social buttons-->
+				<a href="https://github.com/MarkSmith9"> <i class="fab fa-github"></i></a>
+				<a href="https://gitlab.com/MarkSmith9"> <i class="fab fa-gitlab"></i></a>
+				<a href="https://twitter.com/MarkSmi67276665"> <i class="fab fa-twitter"></i></a>
+				<a href="https://www.linkedin.com/in/mark-smith-27ba40192/">
+					<i class="fab fa-linkedin-in"></i></a>
+				<a href="https://stackoverflow.com/users/13459811/mark-smith">
+					<i class="fab fa-stack-overflow"></i></a>
+				<a href="mailto:smithmark.ms3@gmail.com">
+					<i class="fas fa-envelope-open-text"></i></a>
+			</li>
+		</ul>
+	</footer>
+	<script src="main.js" defer></script>
+	<!--added defer attribute in order to improve performance-->
+	<!--This code executes the JavaScript-->
+</body>
+
+</html>
