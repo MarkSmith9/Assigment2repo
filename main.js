@@ -19,14 +19,17 @@ function clock() { //function with a real time clock
 	let today = new Date();
 	let seconds = today.getSeconds(); //gets seconds
 	let minutes = today.getMinutes(); //gets minutes
-	let hours = today.getHours();     //gets hours
+	let hours = today.getHours(); //gets hours
 	seconds = timeCheck(seconds);
 	minutes = timeCheck(minutes);
 	document.getElementById('clock').innerHTML =
-	hours + " : " + minutes + " : " + seconds; //displays hours minutes and seconds of the clock, separated by semicolons and spaces
+		hours + " : " + minutes + " : " + seconds; //displays hours minutes and seconds of the clock, separated by semicolons and spaces
 	let t = setTimeout(clock, 500);
-  }
-  function timeCheck(i) {
-	if (i < 10) {i = "0" + i};  
+}
+
+function timeCheck(i) {
+	if (i < 10) {
+		i = "0" + i
+	};
 	return i; // if number is less than 10 adds a 0 in front of it
-  }
+}
